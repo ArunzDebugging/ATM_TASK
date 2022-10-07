@@ -1,0 +1,43 @@
+package sd_projects;
+public class Main{
+		public static void main(String[] args) {
+		load_cash l=new load_cash();
+		Customer_Details c=new Customer_Details();
+		Atm_process a=new Atm_process();
+		l.setTwothousandcount(20);
+		l.setTwothousandcount(100);
+		l.setTwothousandcount(100);
+		l.getTwothousand();
+		l.getFivehundred();
+		l.getHundread();
+		c.setNo(101);
+		c.setName("Suresh");
+		c.setPin(2343);
+		c.setBal(25234);
+		
+		c.setNo(102);
+		c.setName("Ganesh");
+		c.setPin(5432);
+		c.setBal(34123);
+		
+		c.setNo(103);
+		c.setName("Mahesh");
+		c.setPin(7854);
+		c.setBal(26100);
+		
+		c.setNo(104);
+		c.setName("Naresh");
+		c.setPin(2345);
+		c.setBal(80000);
+		
+		c.setNo(105);
+		c.setName("Harish");
+		c.setPin(1907);
+		c.setBal(103400);
+		
+
+		}
+
+	}
+
+

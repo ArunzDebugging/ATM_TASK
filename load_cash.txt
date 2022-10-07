@@ -1,0 +1,55 @@
+package sd_projects;
+import java.util.*;
+public class load_cash {
+		public int twothousandcount;
+		public int fivehundreadcount;
+		public int hundreadcount;
+		public int twothousand=2000;
+		public int fivehundred=500;
+		public int hundread=100;
+		public int getTwothousandcount() {
+			return twothousandcount;
+		}
+		public void setTwothousandcount(int twothousandcount) {
+			this.twothousandcount = twothousandcount;
+		}
+		public int getFivehundreadcount() {
+			return fivehundreadcount;
+		}
+		public void setFivehundreadcount(int fivehundreadcount) {
+			this.fivehundreadcount = fivehundreadcount;
+		}
+		public int getHundreadcount() {
+			return hundreadcount;
+		}
+		public void setHundreadcount(int hundreadcount) {
+			this.hundreadcount = hundreadcount;
+		}
+		public int getTwothousand() {
+			return twothousand*twothousandcount;
+		}
+		public void setTwothousand(int twothousand) {
+			this.twothousand = twothousand;
+		}
+		public int getFivehundred() {
+			return fivehundred*fivehundreadcount;
+		}
+		public void setFivehundred(int fivehundred) {
+			this.fivehundred = fivehundred;
+		}
+		public int getHundread() {
+			return hundread*hundreadcount;
+		}
+		public void setHundread(int hundread) {
+			this.hundread = hundread;
+		}
+		
+		
+		
+			
+		
+
+	}
+
+
+

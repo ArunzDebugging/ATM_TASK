@@ -1,0 +1,35 @@
+package sd_projects;
+public class Customer_Details {
+			public int no;
+			public int pin;
+			public int bal;
+			public String name;
+		 public Customer_Details() {
+			 
+		 }
+		public int getNo() {
+			return no;
+		}
+		public void setNo(int no) {
+			this.no = no;
+		}
+		public int getPin() {
+			return pin;
+		}
+		public void setPin(int pin) {
+			this.pin = pin;
+		}
+		public int getBal() {
+			return bal;
+		}
+		public void setBal(int bal) {
+			this.bal = bal;
+		}
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+	}
+}
